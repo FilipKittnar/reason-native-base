@@ -1,0 +1,32 @@
+{
+  "name": "reason-native-base",
+  "version": "2.13.8-1",
+  "repository": "https://github.com/mduthilleul/reason-native-base.git",
+  "license": "MIT",
+  "keywords": [
+    "reason",
+    "reasonml",
+    "bucklescript",
+    "react-native",
+    "native-base"
+  ],
+  "files": [
+    "*",
+    "!.merlin",
+    "!lib"
+  ],
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "watch": "bsb -make-world -w",
+    "build": "bsb -make-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.4",
+    "reason-react": "^0.7.0",
+    "reason-react-native": "^0.60.0"
+  },
+  "peerDependencies": {
+    "native-base": "^2.13.8"
+  },
+  "private": false
+}
