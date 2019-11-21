@@ -6,7 +6,7 @@
 
 ## Description
 This bindings package let you use the NativeBase UI library for ReactNative with ReasonML.
-It is largely inspired by [reason-react-native](https://github.com/reason-react-native/reason-react-native)
+It is largely inspired by [reason-react-native](https://github.com/reason-react-native/reason-react-native).
 The package version is of form `<native-base-version>-<package-release>`.
 
 ## Getting started
