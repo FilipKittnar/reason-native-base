@@ -1,6 +1,6 @@
 {
   "name": "reason-native-base",
-  "version": "2.13.8-2",
+  "version": "2.13.8-3",
   "repository": "https://github.com/mduthilleul/reason-native-base.git",
   "license": "MIT",
   "keywords": [
@@ -21,7 +21,7 @@
     "build": "bsb -make-world"
   },
   "devDependencies": {
-    "bs-platform": "^5.0.4",
+    "bs-platform": "^7.1.1",
     "reason-react": "^0.7.0",
     "reason-react-native": "^0.60.0"
   },
