@@ -40,7 +40,7 @@ external make:
     ~tweenDuration: int=?,
     ~tweenEasing: string,
     ~tweenHandler: unit => unit,
-    ~type_: [@bs.string] [ `overlay | `static | `displace ] =?,
+    ~_type: [@bs.string] [ `overlay | `static | `displace ] =?,
     ~style: Style.t=?,
     ~testID: string=?,
     ~children: React.element=?

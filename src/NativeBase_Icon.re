@@ -12,7 +12,7 @@ external make:
     ~android: string=?,
     ~color: string=?,
     ~fontSize: int=?,
-    ~type_: [@bs.string] [
+    ~_type: [@bs.string] [
               | [@bs.as "AntDesign"] `ant_design
               | [@bs.as "Entypo"] `entype
               | [@bs.as "EvilIcons"] `evil_icons
